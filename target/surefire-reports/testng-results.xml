@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="24276" started-at="2021-06-13T18:00:07Z" finished-at="2021-06-13T18:00:31Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="24276" started-at="2021-06-13T18:00:07Z" finished-at="2021-06-13T18:00:31Z">
+      <class name="com.version2Practice.DataProviderTest">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.version2Practice.DataProviderTest@6442b0a6]" name="login" duration-ms="10178" started-at="2021-06-13T18:00:07Z" data-provider="loginData" finished-at="2021-06-13T18:00:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.version2Practice.DataProviderTest@6442b0a6]" name="login" duration-ms="8319" started-at="2021-06-13T18:00:17Z" data-provider="loginData" finished-at="2021-06-13T18:00:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8883359464]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CJ4494@c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.version2Practice.DataProviderTest -->
+      <class name="com.version2Practice.Program1Test">
+        <test-method status="PASS" signature="add()[pri:0, instance:com.version2Practice.Program1Test@35f983a6]" name="add" duration-ms="5" started-at="2021-06-13T18:00:31Z" finished-at="2021-06-13T18:00:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="dele()[pri:0, instance:com.version2Practice.Program1Test@35f983a6]" name="dele" duration-ms="0" started-at="2021-06-13T18:00:31Z" finished-at="2021-06-13T18:00:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dele -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.version2Practice.Program1Test@35f983a6]" name="sum" duration-ms="0" started-at="2021-06-13T18:00:31Z" finished-at="2021-06-13T18:00:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.version2Practice.Program1Test -->
+      <class name="com.version2Practice.OpeningBrowserTest">
+        <test-method status="PASS" signature="open()[pri:0, instance:com.version2Practice.OpeningBrowserTest@60f82f98]" name="open" duration-ms="5691" started-at="2021-06-13T18:00:25Z" finished-at="2021-06-13T18:00:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+      </class> <!-- com.version2Practice.OpeningBrowserTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
